@@ -20,7 +20,7 @@ $ go install git.sr.ht/~spc/mqttcli/cmd/...
 
 # Install rhc-worker-playbook develop setup
 
-`rhc-worker-playbook` needs some devel packages prior to install the `develop-setup` script, which may take some time to run as it dowloads and install everything needed to the `rhc-worker-playbook`.
+`rhc-worker-playbook` needs some devel packages prior to install the `develop-setup` script, which may take some time to run as it downloads and install everything needed to the `rhc-worker-playbook`.
 
 ```console
 $ sudo dnf install c-ares-devel openssl-devel python3-devel gcc gcc-c++
@@ -92,7 +92,7 @@ Execute the publish message in the "control/in" topic. Using `yggctl` to generat
  ```
 
 
- `$CLIENT_ID` can be found in the prompr of the TERMINAL 2, when `yggdrasil` is launched. The output tells the topic it is subscribed, in there the `$CLIENT_ID` can be found. Or in the logs of the `rhc`.
+`$CLIENT_ID` can be found in the prompt of the TERMINAL 2, when `yggdrasil` is launched. The output tells the topic it is subscribed, in there the `$CLIENT_ID` can be found. Or in the logs of the `rhc`.
 
  ```console
 subscribed to topic: yggdrasil/localhost-22278168-85a6-11ec-a65c-fa163e3b5a61/data/in
